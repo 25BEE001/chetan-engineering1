@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 – Page Not Found | Chetan Engineering Corporation</title>
+  <meta name="robots" content="noindex">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #1A1A2E;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container { max-width: 500px; }
+    .logo { font-size: 5rem; margin-bottom: 1rem; }
+    h1 { font-size: 6rem; color: #FFD700; font-weight: 900; line-height: 1; }
+    h2 { font-size: 1.5rem; margin: 1rem 0; color: #E63946; }
+    p { color: #ccc; margin-bottom: 2rem; }
+    a {
+      display: inline-block;
+      background: #E63946;
+      color: #fff;
+      padding: 0.85rem 2rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    a:hover { background: #C0392B; }
+  </style>
+  <script>
+    // GitHub Pages SPA fallback - redirect to index
+    setTimeout(function() {
+      window.location.replace('/chetan-engineering/');
+    }, 3000);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">⚙️</div>
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>The page you're looking for doesn't exist or has been moved. Redirecting to homepage in 3 seconds…</p>
+    <a href="index.html">Go to Homepage</a>
+  </div>
+</body>
+</html>
